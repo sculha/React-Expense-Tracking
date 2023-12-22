@@ -1,0 +1,48 @@
+.new-expense {
+    background-color: #fafafa;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-expense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 12px 25px;
+    border: 1px solid #2b7f8d;
+    background-color: #53a8b6;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-expense button:hover,
+  .new-expense button:active {
+    background-color: #2b7f8d;
+    border-color: #1c6875;
+  }
+  
+  .new-expense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-expense button.alternative:hover,
+  .new-expense button.alternative:active {
+    background-color: #ddb3f8;
+  }
+
+  .new-expense button.danger{
+    background-color: #f00;
+    border-color: #f00;
+  }
+  .new-expense button.danger:hover,
+  .new-expense button.danger:active {
+    background-color: #f00;
+    border-color: #510674;
+  }
